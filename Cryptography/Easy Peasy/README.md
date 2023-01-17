@@ -16,7 +16,7 @@ Cryptography
 when connected to the terminal we get the following
 ![image](https://i.imgur.com/khav0TF.png)
 
-from the given python file we can see that the xor file pads the input with the same key after every 50000 character so if we get our input encrypted with the same xor value. then we can xor the input with enc result and get the key.
+from the given python file we can see that the xor file pads the input with the same key after every 50000 character and we know that XOR is transitive, so if we get our input encrypted with the same xor value. then we can xor the input with enc result and get the key.
 
 Then XORing the key with encrypted flag we should get the decoded flag.
 
